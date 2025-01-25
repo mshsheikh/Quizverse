@@ -1,8 +1,8 @@
 {
     "quizzes": [
         {
-            "title": "HTML",
-            "icon": "./assets/images/icon-html.svg",
+            "title": "NodeJS",
+            "icon": "./assets/images/nodejs.svg",
             "questions": [
                 {
                     "id": 1,
