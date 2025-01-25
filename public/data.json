@@ -117,8 +117,8 @@
             ]
         },
         {
-            "title": "CSS",
-            "icon": "./assets/images/icon-css.svg",
+            "title": "TailwindCSS",
+            "icon": "./assets/images/tailwindcss.svg",
             "questions": [
                 {
                     "id": 1,
@@ -349,8 +349,8 @@
             ]
         },
         {
-            "title": "Accessibility",
-            "icon": "./assets/images/icon-accessibility.svg",
+            "title": "NextJS",
+            "icon": "./assets/images/nextjs.svg",
             "questions": [
                 {
                     "id": 1,
