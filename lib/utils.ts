@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const backgroundColors: { [key: string]: string } = {
   NodeJS: "#ecf5e1",
-  TypeScript: "#8ebbfc",
+  TypeScript: "#c5dcfc",
   NextJS: "#eeeeee",
   TailwindCSS: "#f2fcfd",
 };
