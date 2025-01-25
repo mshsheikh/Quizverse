@@ -30,9 +30,9 @@ export default function Home() {
     <MotionDiv
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="flex flex-col gap-1 md:gap-1 lg:gap-1"
+      className="flex flex-col gap-1 md:gap-1 lg:gap-0"
     >
-      <div className="w-full max-w-[90px] md:max-w-[100px] lg:max-w-[160px] mb-2 md:mb-3">
+      <div className="w-full max-w-[70px] md:max-w-[90px] lg:max-w-[100px] mb-1 md:mb-2">
         <Image
           src="/assets/images/logo.gif"
           alt="Quizverse Logo"
