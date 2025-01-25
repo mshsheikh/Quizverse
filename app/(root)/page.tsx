@@ -7,6 +7,7 @@ import { useQuestionStore } from "@/store/quiz-store";
 import { useEffect } from "react";
 import { MotionDiv } from "@/components/animated/motion-div";
 import { cn } from "@/lib/utils";
+import { FaFacebook, FaLinkedin, FaDiscord, FaYoutube, FaGithub } from "react-icons/fa";
 
 export default function Home() {
   const { fetchQuizzes, quizzes, selectedQuizz, hasCompleteAll, reset } =
@@ -82,9 +83,59 @@ export default function Home() {
         </>
       )}
       
-      {/* Footer */}
       <footer className="col-span-full text-center py-6 mt-8 text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
-        &copy; 2025 <strong>Quizverse</strong> by Muhammad Salman Hussain.<br />All Rights Reserved.
+        <div className="flex flex-col items-center gap-4 md:gap-3">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+            <a 
+              href="https://www.facebook.com/magiciansheikh" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple transition-colors"
+              aria-label="Facebook"
+            >
+              <FaFacebook className="text-2xl md:text-3xl" />
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/mshsheikh" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple transition-colors"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin className="text-2xl md:text-3xl" />
+            </a>
+            <a 
+              href="https://discordapp.com/user/1228891042787627070" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple transition-colors"
+              aria-label="Discord"
+            >
+              <FaDiscord className="text-2xl md:text-3xl" />
+            </a>
+            <a 
+              href="https://www.youtube.com/c/@SalmanSheikhOfficial" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple transition-colors"
+              aria-label="YouTube"
+            >
+              <FaYoutube className="text-2xl md:text-3xl" />
+            </a>
+            <a 
+              href="https://github.com/mshsheikh" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple transition-colors"
+              aria-label="GitHub"
+            >
+              <FaGithub className="text-2xl md:text-3xl" />
+            </a>
+          </div>
+          <div className="mt-2 md:mt-0">
+            &copy; 2025 <strong>Quizverse</strong> by Muhammad Salman Hussain.<br />All Rights Reserved.
+          </div>
+        </div>
       </footer>
     </MaxWidthWrapper>
   );
