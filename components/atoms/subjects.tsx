@@ -12,7 +12,7 @@ const Subjects = ({ data }: SubjectsProps) => {
   const selectQuizz = useQuestionStore((state) => state.selectQuizz);
   const backgroundColors: { [key: string]: string } = {
     NodeJS: "#ecf5e1",
-    TypeScript: "#EBF0FF",
+    TypeScript: "#8ebbfc",
     NextJS: "#eeeeee",
     TailwindCSS: "#f2fcfd",
   };
