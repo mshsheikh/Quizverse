@@ -81,6 +81,11 @@ export default function Home() {
           </MotionDiv>
         </>
       )}
+      
+      {/* Footer */}
+      <footer className="col-span-full text-center py-6 mt-8 text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
+        &copy; 2025 <strong>Quizverse</strong> by Muhammad Salman Hussain.<br />All Rights Reserved.
+      </footer>
     </MaxWidthWrapper>
   );
 }
