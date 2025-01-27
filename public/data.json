@@ -238,14 +238,14 @@
             "questions": [
                 {
                     "id": 1,
-                    "question": "Which syntax is correct to output 'Hello World' in an alert box?",
+                    "question": "What is Next.js primarily used for?",
                     "options": [
-                        "alertBox('Hello World');",
-                        "msg('Hello World');",
-                        "alert('Hello World');",
-                        "msgBox('Hello World');"
+                        "Backend development",
+                        "Mobile app development",
+                        "Server-side rendering and static site generation",
+                        "Database management"
                     ],
-                    "answer": "alert('Hello World');"
+                    "answer": "Server-side rendering and static site generation"
                 },
                 {
                     "id": 2,
