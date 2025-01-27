@@ -249,14 +249,14 @@
                 },
                 {
                     "id": 2,
-                    "question": "How do you call a function named 'myFunction'?",
+                    "question": "Which command is used to create a new Next.js project?",
                     "options": [
-                        "call function myFunction()",
-                        "call myFunction()",
-                        "myFunction()",
-                        "execute myFunction()"
+                        "npm create-next-app",
+                        "npx create-next-app",
+                        "npm init next-app",
+                        "npx init-next-app"
                     ],
-                    "answer": "myFunction()"
+                    "answer": "npx create-next-app"
                 },
                 {
                     "id": 3,
