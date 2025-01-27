@@ -282,25 +282,25 @@
                 },
                   {
                     "id": 5,
-                    "question": "How does a FOR loop start?",
+                    "question": "Which of the following is true about getServerSideProps?",
                     "options": [
-                        "for (i = 0; i <= 5)",
-                        "for i = 1 to 5",
-                        "for (i <= 5; i++)",
-                        "for (i = 0; i <= 5; i++)"
+                        "It runs only on the client side",
+                        "It runs at build time",
+                        "It runs on the server side on every request",
+                        "It is used for static site generation"
                     ],
-                    "answer": "for (i = 0; i <= 5; i++)"
+                    "answer": "It runs on the server side on every request"
                 },
                 {
                     "id": 6,
-                    "question": "How can you add a single-line comment in JavaScript?",
+                    "question": "What is the purpose of getStaticProps in Next.js?",
                     "options": [
-                      "'This is a single-line comment",
-                      "//This is a single-line comment",
-                      "<!--This is a single-line comment-->",
-                      "/* This is a single-line comment */"
+                      "Fetch data at request time",
+                      "Fetch data at build time",
+                      "Handle client-side routing",
+                      "Manage state in components"
                     ],
-                    "answer": "//This is a single-line comment"
+                    "answer": "Fetch data at build time"
                 },
                 {
                     "id": 7,
