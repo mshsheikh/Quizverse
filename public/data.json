@@ -326,25 +326,25 @@
                 },
                 {
                     "id": 9,
-                    "question": "Which operator is used to assign a value to a variable?",
+                    "question": " Which of the following is NOT a feature of Next.js?",
                     "options": [
-                        "-",
-                        "*",
-                        "=",
-                        "x"
+                        "Server-side rendering",
+                        "Static site generation",
+                        "Built-in state management",
+                        "API routes"
                     ],
-                    "answer": "="
+                    "answer": "Built-in state management"
                 },
                 {
                     "id": 10,
-                    "question": "What is the correct way to write a JavaScript object?",
+                    "question": "How do you add global CSS styles in a Next.js project?",
                     "options": [
-                        "var person = {firstName: 'John', lastName: 'Doe'};",
-                        "var person = {firstName = 'John', lastName = 'Doe'};",
-                        "var person = (firstName: 'John', lastName: 'Doe');",
-                        "var person = (firstName = 'John', lastName = 'Doe');"
+                        "Import the CSS file in _app.js",
+                        "Add the CSS file to the public folder",
+                        "Use inline styles in components",
+                        "Import the CSS file directly in index.js"
                     ],
-                    "answer": "var person = {firstName: 'John', lastName: 'Doe'};"
+                    "answer": "Import the CSS file in _app.js"
                 }
             ]
         },
