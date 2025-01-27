@@ -260,25 +260,25 @@
                 },
                 {
                     "id": 3,
-                    "question": "How to write an IF statement in JavaScript?",
+                    "question": "What is the default port for a Next.js development server?",
                     "options": [
-                        "if i = 5 then",
-                        "if (i == 5)",
-                        "if i == 5",
-                        "if i = 5"
+                        "3000",
+                        "8080",
+                        "5000",
+                        "4000"
                     ],
-                    "answer": "if (i == 5)"
+                    "answer": "3000"
                 },
                 {
                     "id": 4,
-                    "question": "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+                    "question": "Which folder is used to create API routes in Next.js?",
                     "options": [
-                        "if (i <> 5)",
-                        "if i =! 5 then",
-                        "if (i != 5)",
-                        "if i not = 5"
+                        "pages/api",
+                        "src/api",
+                        "api/routes",
+                        "routes/api"
                     ],
-                    "answer": "if (i != 5)"
+                    "answer": "pages/api"
                 },
                   {
                     "id": 5,
