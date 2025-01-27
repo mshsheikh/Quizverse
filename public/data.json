@@ -304,25 +304,25 @@
                 },
                 {
                     "id": 7,
-                    "question": "What is the correct way to write a JavaScript array?",
+                    "question": "How do you create a dynamic route in Next.js?",
                     "options": [
-                        "var colors = (1:'red', 2:'green', 3:'blue')",
-                        "var colors = ['red', 'green', 'blue']",
-                        "var colors = 'red', 'green', 'blue'",
-                        "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+                        "By adding a [param].js file in the pages folder",
+                        "By using a dynamic keyword in the file name",
+                        "By creating a routes folder",
+                        "By using a special next-dynamic package"
                     ],
-                    "answer": "var colors = ['red', 'green', 'blue']"
+                    "answer": "By adding a [param].js file in the pages folder"
                 },
                 {
                     "id": 8,
-                    "question": "How do you find the number with the highest value of x and y?",
+                    "question": "What is the purpose of the next/link component?",
                     "options": [
-                        "Math.ceil(x, y)",
-                        "top(x, y)",
-                        "Math.max(x, y)",
-                        "Math.highest(x, y)"
+                        "To style links",
+                        "To handle external links",
+                        "To enable client-side navigation between pages",
+                        "To create API endpoints"
                     ],
-                    "answer": "Math.max(x, y)"
+                    "answer": "To enable client-side navigation between pages"
                 },
                 {
                     "id": 9,
