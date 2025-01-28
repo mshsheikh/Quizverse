@@ -9,8 +9,8 @@ const rubik = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Quizverse 💡 by mshsheikh",
-  description: "A Frontend Quiz App to Master HTML, CSS, JavaScript, and More!",
+  title: "Quizverse by mshsheikh",
+  description: "A Frontend Quiz App to Master Node.js, TypeScript, Next.js, and More!",
 };
 
 export default function RootLayout({
