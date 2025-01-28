@@ -103,7 +103,7 @@
     },
     {
       "title": "TypeScript",
-      "icon": "./assets/images/typescript.svg",
+      "icon": "./assets/images/ts.svg",
       "questions": [
         {
           "id": 1,
