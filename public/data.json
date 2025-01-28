@@ -1,468 +1,388 @@
 {
-    "quizzes": [
+  "quizzes": [
+    {
+      "title": "NodeJS",
+      "icon": "./assets/images/nodejs.svg",
+      "questions": [
         {
-            "title": "NodeJS",
-            "icon": "./assets/images/nodejs.svg",
-            "questions": [
-                {
-                    "id": 1,
-                    "question": "What does HTML stand for?",
-                    "options": [
-                        "Hyper Trainer Marking Language",
-                        "Hyper Text Marketing Language",
-                        "Hyper Text Markup Language",
-                        "Hyper Text Markup Leveler"
-                    ],
-                    "answer": "Hyper Text Markup Language"
-                },
-                {
-                    "id": 2,
-                    "question": "Which of the following is the correct structure for an HTML document?",
-                    "options": [
-                        "<html><head></head><body></body></html>",
-                        "<head><html></html><body></body></head>",
-                        "<body><head></head><html></html></body>",
-                        "<html><body></body><head></head></html>"
-                    ],
-                    "answer": "<html><head></head><body></body></html>"
-                },
-                {
-                    "id": 3,
-                    "question": "Which HTML element is used to define the title of a document?",
-                    "options": [
-                        "<head>",
-                        "<title>",
-                        "<header>",
-                        "<top>"
-                    ],
-                    "answer": "<title>"
-                },
-                {
-                    "id": 4,
-                    "question": "What is the purpose of the <body> tag in HTML?",
-                    "options": [
-                        "It defines the document's head section.",
-                        "It contains all the content such as text, images, and links.",
-                        "It is used to define the main content of an HTML document.",
-                        "It specifies the body of the email content in HTML."
-                    ],
-                    "answer": "It contains all the content such as text, images, and links."
-                },
-                {
-                    "id": 5,
-                    "question": "Which HTML tag is used to create a hyperlink?",
-                    "options": [
-                        "<hyperlink>",
-                        "<link>",
-                        "<a>",
-                        "<href>"
-                    ],
-                    "answer": "<a>"
-                },
-                {
-                    "id": 6,
-                    "question": "Which tag is used to display images in HTML?",
-                    "options": [
-                        "<img>",
-                        "<image>",
-                        "<src>",
-                        "<pic>"
-                    ],
-                    "answer": "<img>"
-                },
-                {
-                    "id": 7,
-                    "question": "What attribute is used to provide the path of an image in the <img> tag?",
-                    "options": [
-                        "link",
-                        "src",
-                        "href",
-                        "url"
-                    ],
-                    "answer": "src"
-                },
-                {
-                    "id": 8,
-                    "question": "Which HTML tag is used to create an unordered list?",
-                    "options": [
-                        "<ul>",
-                        "<ol>",
-                        "<list>",
-                        "<li>"
-                    ],
-                    "answer": "<ul>"
-                },
-                {
-                    "id": 9,
-                    "question": "What does the <br> tag do?",
-                    "options": [
-                        "It breaks the text into two sections.",
-                        "It creates a bold text.",
-                        "It inserts a line break.",
-                        "It adds a new row in a table."
-                    ],
-                    "answer": "It inserts a line break."
-                },
-                {
-                    "id": 10,
-                    "question": "In HTML, what does the `fieldset` tag do?",
-                    "options": [
-                        "It is used to group related data in a form.",
-                        "It sets the field to a fixed size.",
-                        "It automatically validates the fields within a form.",
-                        "It hides the fields in a form."
-                    ],
-                    "answer": "It is used to group related data in a form."
-                }
-            ]
+          "id": 1,
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Trainer Marking Language",
+            "Hyper Text Marketing Language",
+            "Hyper Text Markup Language",
+            "Hyper Text Markup Leveler"
+          ],
+          "answer": "Hyper Text Markup Language"
         },
         {
-            "title": "TypeScript",
-            "icon": "./assets/images/ts.svg",
-            "questions": [
-                {
-                    "id": 1,
-                    "question": "What does CSS stand for?",
-                    "options": [
-                        "Colorful Style Sheets",
-                        "Computer Style Sheets",
-                        "Cascading Style Sheets",
-                        "Creative Style Sheets"
-                    ],
-                    "answer": "Cascading Style Sheets"
-                },
-                {
-                    "id": 2,
-                    "question": "Which HTML attribute is used to define inline styles?",
-                    "options": [
-                        "styles",
-                        "style",
-                        "class",
-                        "font-style"
-                    ],
-                    "answer": "style"
-                },
-                {
-                    "id": 3,
-                    "question": "How do you insert a comment in a CSS file?",
-                    "options": [
-                        "// this is a comment //",
-                        "/* this is a comment */",
-                        "-- this is a comment --",
-                        "<!-- this is a comment -->"
-                    ],
-                    "answer": "/* this is a comment */"
-                },
-                {
-                    "id": 4,
-                    "question": "Which property is used to change the background color of an element?",
-                    "options": [
-                        "color",
-                        "bgcolor",
-                        "background-color",
-                        "background"
-                    ],
-                    "answer": "background-color"
-                },
-                {
-                    "id": 5,
-                    "question": "How do you apply a style to all <p> elements?",
-                    "options": [
-                        "p { }",
-                        ".p { }",
-                        "#p { }",
-                        "all.p { }"
-                    ],
-                    "answer": "p { }"
-                },
-                {
-                    "id": 6,
-                    "question": "Which property is used to change the font of an element?",
-                    "options": [
-                        "font-style",
-                        "text-style",
-                        "font-family",
-                        "typeface"
-                    ],
-                    "answer": "font-family"
-                },
-                {
-                    "id": 7,
-                    "question": "How do you make each word in a text start with a capital letter?",
-                    "options": [
-                        "text-transform: capitalize",
-                        "text-transform: uppercase",
-                        "text-style: capital",
-                        "font-transform: capitalize"
-                    ],
-                    "answer": "text-transform: capitalize"
-                },
-                {
-                    "id": 8,
-                    "question": "How do you select an element with the class name 'header'?",
-                    "options": [
-                        ".header",
-                        "#header",
-                        "header",
-                        "*header"
-                    ],
-                    "answer": ".header"
-                },
-                {
-                    "id": 9,
-                    "question": "What is the default value of the 'position' property?",
-                    "options": [
-                        "relative",
-                        "fixed",
-                        "absolute",
-                        "static"
-                    ],
-                    "answer": "static"
-                },
-                {
-                    "id": 10,
-                    "question": "What is the purpose of the z-index property in CSS?",
-                    "options": [
-                        "To count the number of elements",
-                        "To set the magnification level of an element",
-                        "To specify the stack order of an element",
-                        "To create a zoom effect"
-                    ],
-                    "answer": "To specify the stack order of an element"
-                }
-            ]
+          "id": 2,
+          "question": "Which of the following is the correct structure for an HTML document?",
+          "options": [
+            "<html><head></head><body></body></html>",
+            "<head><html></html><body></body></head>",
+            "<body><head></head><html></html></body>",
+            "<html><body></body><head></head></html>"
+          ],
+          "answer": "<html><head></head><body></body></html>"
         },
         {
-            "title": "NextJS",
-            "icon": "./assets/images/nextjs.svg",
-            "questions": [
-                {
-                    "id": 1,
-                    "question": "What is Next.js primarily used for?",
-                    "options": [
-                        "Backend development",
-                        "Mobile app development",
-                        "Server-side rendering and static site generation",
-                        "Database management"
-                    ],
-                    "answer": "Server-side rendering and static site generation"
-                },
-                {
-                    "id": 2,
-                    "question": "Which command is used to create a new Next.js project?",
-                    "options": [
-                        "npm create-next-app",
-                        "npx create-next-app",
-                        "npm init next-app",
-                        "npx init-next-app"
-                    ],
-                    "answer": "npx create-next-app"
-                },
-                {
-                    "id": 3,
-                    "question": "What is the default port for a Next.js development server?",
-                    "options": [
-                        "3000",
-                        "8080",
-                        "5000",
-                        "4000"
-                    ],
-                    "answer": "3000"
-                },
-                {
-                    "id": 4,
-                    "question": "Which folder is used to create API routes in Next.js?",
-                    "options": [
-                        "pages/api",
-                        "src/api",
-                        "api/routes",
-                        "routes/api"
-                    ],
-                    "answer": "pages/api"
-                },
-                  {
-                    "id": 5,
-                    "question": "Which of the following is true about getServerSideProps?",
-                    "options": [
-                        "It runs only on the client side",
-                        "It runs at build time",
-                        "It runs on the server side on every request",
-                        "It is used for static site generation"
-                    ],
-                    "answer": "It runs on the server side on every request"
-                },
-                {
-                    "id": 6,
-                    "question": "What is the purpose of getStaticProps in Next.js?",
-                    "options": [
-                      "Fetch data at request time",
-                      "Fetch data at build time",
-                      "Handle client-side routing",
-                      "Manage state in components"
-                    ],
-                    "answer": "Fetch data at build time"
-                },
-                {
-                    "id": 7,
-                    "question": "How do you create a dynamic route in Next.js?",
-                    "options": [
-                        "By adding a [param].js file in the pages folder",
-                        "By using a dynamic keyword in the file name",
-                        "By creating a routes folder",
-                        "By using a special next-dynamic package"
-                    ],
-                    "answer": "By adding a [param].js file in the pages folder"
-                },
-                {
-                    "id": 8,
-                    "question": "What is the purpose of the next/link component?",
-                    "options": [
-                        "To style links",
-                        "To handle external links",
-                        "To enable client-side navigation between pages",
-                        "To create API endpoints"
-                    ],
-                    "answer": "To enable client-side navigation between pages"
-                },
-                {
-                    "id": 9,
-                    "question": " Which of the following is NOT a feature of Next.js?",
-                    "options": [
-                        "Server-side rendering",
-                        "Static site generation",
-                        "Built-in state management",
-                        "API routes"
-                    ],
-                    "answer": "Built-in state management"
-                },
-                {
-                    "id": 10,
-                    "question": "How do you add global CSS styles in a Next.js project?",
-                    "options": [
-                        "Import the CSS file in _app.js",
-                        "Add the CSS file to the public folder",
-                        "Use inline styles in components",
-                        "Import the CSS file directly in index.js"
-                    ],
-                    "answer": "Import the CSS file in _app.js"
-                }
-            ]
+          "id": 3,
+          "question": "Which HTML element is used to define the title of a document?",
+          "options": ["<head>", "<title>", "<header>", "<top>"],
+          "answer": "<title>"
         },
         {
-            "title": "TailwindCSS",
-            "icon": "./assets/images/tailwindcss.svg",
-            "questions": [
-                {
-                    "id": 1,
-                    "question": "What does 'WCAG' stand for?",
-                    "options": [
-                        "Web Content Accessibility Guidelines",
-                        "Web Compliance Accessibility Guide",
-                        "Web Content Accessibility Goals",
-                        "Website Compliance and Accessibility Guidelines"
-                    ],
-                    "answer": "Web Content Accessibility Guidelines"
-                },
-                {
-                    "id": 2,
-                    "question": "Which element is used to provide alternative text for images for screen reader users?",
-                    "options": [
-                        "<alt>",
-                        "<figcaption>",
-                        "<description>",
-                        "<img alt='description'>"
-                    ],
-                    "answer": "<img alt='description'>"
-                },
-                {
-                    "id": 3,
-                    "question": "What does ARIA stand for in web development?",
-                    "options": [
-                        "Accessible Rich Internet Applications",
-                        "Advanced Responsive Internet Assistance",
-                        "Accessible Responsive Internet Applications",
-                        "Automated Responsive Internet Actions"
-                    ],
-                    "answer": "Accessible Rich Internet Applications"
-                },
-                {
-                    "id": 4,
-                    "question": "Which of the following is not a principle of the WCAG?",
-                    "options": [
-                        "Perceivable",
-                        "Dependable",
-                        "Operable",
-                        "Understandable"
-                    ],
-                    "answer": "Dependable"
-                },
-                {
-                    "id": 5,
-                    "question": "Which of these color contrast ratios defines the minimum WCAG 2.1 Level AA requirement for normal text?",
-                    "options": [
-                        "3:1",
-                        "4.5:1",
-                        "7:1",
-                        "2:1"
-                    ],
-                    "answer": "4.5:1"
-                },
-                {
-                    "id": 6,
-                    "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
-                    "options": [
-                        "<div>",
-                        "<span>",
-                        "<a href='...'>",
-                        "<p>"
-                    ],
-                    "answer": "<a href='...'>"
-                },
-                {
-                    "id": 7,
-                    "question": "What is the purpose of the 'lang' attribute in an HTML page?",
-                    "options": [
-                        "To specify the scripting language",
-                        "To define the character set",
-                        "To indicate the language of the page content",
-                        "To declare a language pack"
-                    ],
-                    "answer": "To indicate the language of the page content"
-                },
-                {
-                    "id": 8,
-                    "question": "Which guideline ensures that content is accessible by keyboard as well as by mouse?",
-                    "options": [
-                        "Keyboard Accessible",
-                        "Mouse Independence",
-                        "Device Independence",
-                        "Operable Controls"
-                    ],
-                    "answer": "Keyboard Accessible"
-                },
-                {
-                    "id": 9,
-                    "question": "What is the role of 'skip navigation' links in web accessibility?",
-                    "options": [
-                        "To skip over primary navigation to the main content",
-                        "To provide shortcuts to different sections of the website",
-                        "To help users skip unwanted sections like advertisements",
-                        "To bypass broken links in the navigation"
-                    ],
-                    "answer": "To skip over primary navigation to the main content"
-                },
-                {
-                    "id": 10,
-                    "question": "Which of these tools can help in checking the accessibility of a website?",
-                    "options": [
-                        "W3C Validator",
-                        "Google Lighthouse",
-                        "CSS Validator",
-                        "JavaScript Console"
-                    ],
-                    "answer": "Google Lighthouse"
-                }
-            ]
+          "id": 4,
+          "question": "What is the purpose of the <body> tag in HTML?",
+          "options": [
+            "It defines the document's head section.",
+            "It contains all the content such as text, images, and links.",
+            "It is used to define the main content of an HTML document.",
+            "It specifies the body of the email content in HTML."
+          ],
+          "answer": "It contains all the content such as text, images, and links."
+        },
+        {
+          "id": 5,
+          "question": "Which HTML tag is used to create a hyperlink?",
+          "options": ["<hyperlink>", "<link>", "<a>", "<href>"],
+          "answer": "<a>"
+        },
+        {
+          "id": 6,
+          "question": "Which tag is used to display images in HTML?",
+          "options": ["<img>", "<image>", "<src>", "<pic>"],
+          "answer": "<img>"
+        },
+        {
+          "id": 7,
+          "question": "What attribute is used to provide the path of an image in the <img> tag?",
+          "options": ["link", "src", "href", "url"],
+          "answer": "src"
+        },
+        {
+          "id": 8,
+          "question": "Which HTML tag is used to create an unordered list?",
+          "options": ["<ul>", "<ol>", "<list>", "<li>"],
+          "answer": "<ul>"
+        },
+        {
+          "id": 9,
+          "question": "What does the <br> tag do?",
+          "options": [
+            "It breaks the text into two sections.",
+            "It creates a bold text.",
+            "It inserts a line break.",
+            "It adds a new row in a table."
+          ],
+          "answer": "It inserts a line break."
+        },
+        {
+          "id": 10,
+          "question": "In HTML, what does the `fieldset` tag do?",
+          "options": [
+            "It is used to group related data in a form.",
+            "It sets the field to a fixed size.",
+            "It automatically validates the fields within a form.",
+            "It hides the fields in a form."
+          ],
+          "answer": "It is used to group related data in a form."
         }
-    ]
+      ]
+    },
+    {
+      "title": "TypeScript",
+      "icon": "./assets/images/ts.svg",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does CSS stand for?",
+          "options": [
+            "Colorful Style Sheets",
+            "Computer Style Sheets",
+            "Cascading Style Sheets",
+            "Creative Style Sheets"
+          ],
+          "answer": "Cascading Style Sheets"
+        },
+        {
+          "id": 2,
+          "question": "Which HTML attribute is used to define inline styles?",
+          "options": ["styles", "style", "class", "font-style"],
+          "answer": "style"
+        },
+        {
+          "id": 3,
+          "question": "How do you insert a comment in a CSS file?",
+          "options": [
+            "// this is a comment //",
+            "/* this is a comment */",
+            "-- this is a comment --",
+            "<!-- this is a comment -->"
+          ],
+          "answer": "/* this is a comment */"
+        },
+        {
+          "id": 4,
+          "question": "Which property is used to change the background color of an element?",
+          "options": ["color", "bgcolor", "background-color", "background"],
+          "answer": "background-color"
+        },
+        {
+          "id": 5,
+          "question": "How do you apply a style to all <p> elements?",
+          "options": ["p { }", ".p { }", "#p { }", "all.p { }"],
+          "answer": "p { }"
+        },
+        {
+          "id": 6,
+          "question": "Which property is used to change the font of an element?",
+          "options": ["font-style", "text-style", "font-family", "typeface"],
+          "answer": "font-family"
+        },
+        {
+          "id": 7,
+          "question": "How do you make each word in a text start with a capital letter?",
+          "options": [
+            "text-transform: capitalize",
+            "text-transform: uppercase",
+            "text-style: capital",
+            "font-transform: capitalize"
+          ],
+          "answer": "text-transform: capitalize"
+        },
+        {
+          "id": 8,
+          "question": "How do you select an element with the class name 'header'?",
+          "options": [".header", "#header", "header", "*header"],
+          "answer": ".header"
+        },
+        {
+          "id": 9,
+          "question": "What is the default value of the 'position' property?",
+          "options": ["relative", "fixed", "absolute", "static"],
+          "answer": "static"
+        },
+        {
+          "id": 10,
+          "question": "What is the purpose of the z-index property in CSS?",
+          "options": [
+            "To count the number of elements",
+            "To set the magnification level of an element",
+            "To specify the stack order of an element",
+            "To create a zoom effect"
+          ],
+          "answer": "To specify the stack order of an element"
+        }
+      ]
+    },
+    {
+      "title": "NextJS",
+      "icon": "./assets/images/nextjs.svg",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Next.js primarily used for?",
+          "options": [
+            "Backend development",
+            "Mobile app development",
+            "Server-side rendering and static site generation",
+            "Database management"
+          ],
+          "answer": "Server-side rendering and static site generation"
+        },
+        {
+          "id": 2,
+          "question": "Which command is used to create a new Next.js project?",
+          "options": [
+            "npm create-next-app",
+            "npx create-next-app",
+            "npm init next-app",
+            "npx init-next-app"
+          ],
+          "answer": "npx create-next-app"
+        },
+        {
+          "id": 3,
+          "question": "What is the default port for a Next.js development server?",
+          "options": ["3000", "8080", "5000", "4000"],
+          "answer": "3000"
+        },
+        {
+          "id": 4,
+          "question": "Which folder is used to create API routes in Next.js?",
+          "options": ["pages/api", "src/api", "api/routes", "routes/api"],
+          "answer": "pages/api"
+        },
+        {
+          "id": 5,
+          "question": "Which of the following is true about getServerSideProps?",
+          "options": [
+            "It runs only on the client side",
+            "It runs at build time",
+            "It runs on the server side on every request",
+            "It is used for static site generation"
+          ],
+          "answer": "It runs on the server side on every request"
+        },
+        {
+          "id": 6,
+          "question": "What is the purpose of getStaticProps in Next.js?",
+          "options": [
+            "Fetch data at request time",
+            "Fetch data at build time",
+            "Handle client-side routing",
+            "Manage state in components"
+          ],
+          "answer": "Fetch data at build time"
+        },
+        {
+          "id": 7,
+          "question": "How do you create a dynamic route in Next.js?",
+          "options": [
+            "By adding a [param].js file in the pages folder",
+            "By using a dynamic keyword in the file name",
+            "By creating a routes folder",
+            "By using a special next-dynamic package"
+          ],
+          "answer": "By adding a [param].js file in the pages folder"
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of the next/link component?",
+          "options": [
+            "To style links",
+            "To handle external links",
+            "To enable client-side navigation between pages",
+            "To create API endpoints"
+          ],
+          "answer": "To enable client-side navigation between pages"
+        },
+        {
+          "id": 9,
+          "question": " Which of the following is NOT a feature of Next.js?",
+          "options": [
+            "Server-side rendering",
+            "Static site generation",
+            "Built-in state management",
+            "API routes"
+          ],
+          "answer": "Built-in state management"
+        },
+        {
+          "id": 10,
+          "question": "How do you add global CSS styles in a Next.js project?",
+          "options": [
+            "Import the CSS file in _app.js",
+            "Add the CSS file to the public folder",
+            "Use inline styles in components",
+            "Import the CSS file directly in index.js"
+          ],
+          "answer": "Import the CSS file in _app.js"
+        }
+      ]
+    },
+    {
+      "title": "TailwindCSS",
+      "icon": "./assets/images/tailwindcss.svg",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is Tailwind CSS primarily used for?",
+          "options": [
+            "Backend development",
+            "Utility-first CSS styling",
+            "Database management",
+            "Server-side rendering"
+          ],
+          "answer": "Utility-first CSS styling"
+        },
+        {
+          "id": 2,
+          "question": "How do you install Tailwind CSS in a project?",
+          "options": [
+            "npm install tailwind",
+            "npm install tailwindcss",
+            "npm install tailwind-css",
+            "npm install tailwind-styles"
+          ],
+          "answer": "npm install tailwindcss"
+        },
+        {
+          "id": 3,
+          "question": "Which file is used to configure Tailwind CSS?",
+          "options": [
+            "tailwind.js",
+            "tailwind.config.css",
+            "tailwind.config.js",
+            "tailwind-config.json"
+          ],
+          "answer": "tailwind.config.js"
+        },
+        {
+          "id": 4,
+          "question": "What is the purpose of the `@apply` directive in Tailwind CSS?",
+          "options": [
+            "To create custom animations",
+            "To apply utility classes in custom CSS",
+            "To import external stylesheets",
+            "To define media queries"
+          ],
+          "answer": "To apply utility classes in custom CSS"
+        },
+        {
+          "id": 5,
+          "question": "Which utility class is used to set a flex container in Tailwind CSS?",
+          "options": ["flexbox", "flex-container", "flex", "display-flex"],
+          "answer": "flex"
+        },
+        {
+          "id": 6,
+          "question": "How do you add padding of 1rem to an element in Tailwind CSS?",
+          "options": ["p-1", "p-4", "p-6", "p-8"],
+          "answer": "p-4"
+        },
+        {
+          "id": 7,
+          "question": "Which utility class is used to center text horizontally in Tailwind CSS?",
+          "options": [
+            "text-center",
+            "text-middle",
+            "align-center",
+            "center-text"
+          ],
+          "answer": "text-center"
+        },
+        {
+          "id": 8,
+          "question": "What is the purpose of the `purge` option in `tailwind.config.js`?",
+          "options": [
+            "To remove unused CSS in production",
+            "To add custom colors",
+            "To enable dark mode",
+            "To configure animations"
+          ],
+          "answer": "To remove unused CSS in production"
+        },
+        {
+          "id": 9,
+          "question": "How do you enable dark mode in Tailwind CSS?",
+          "options": [
+            "Add `dark: true` in `tailwind.config.js`",
+            "Use the `dark-mode` utility class",
+            "Add `darkMode: 'class'` or `darkMode: 'media'` in `tailwind.config.js`",
+            "Import a dark mode plugin"
+          ],
+          "answer": "Add `darkMode: 'class'` or `darkMode: 'media'` in `tailwind.config.js`"
+        },
+        {
+          "id": 10,
+          "question": "Which utility class is used to set a full-width container in Tailwind CSS?",
+          "options": ["w-full", "container-full", "width-full", "full-width"],
+          "answer": "w-full"
+        }
+      ]
+    }
+  ]
 }
