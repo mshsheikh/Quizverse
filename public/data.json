@@ -103,87 +103,102 @@
     },
     {
       "title": "TypeScript",
-      "icon": "./assets/images/ts.svg",
+      "icon": "./assets/images/typescript.svg",
       "questions": [
         {
           "id": 1,
-          "question": "What does CSS stand for?",
+          "question": "What is TypeScript primarily used for?",
           "options": [
-            "Colorful Style Sheets",
-            "Computer Style Sheets",
-            "Cascading Style Sheets",
-            "Creative Style Sheets"
+            "Backend development",
+            "Adding static typing to JavaScript",
+            "Database management",
+            "Mobile app development"
           ],
-          "answer": "Cascading Style Sheets"
+          "answer": "Adding static typing to JavaScript"
         },
         {
           "id": 2,
-          "question": "Which HTML attribute is used to define inline styles?",
-          "options": ["styles", "style", "class", "font-style"],
-          "answer": "style"
+          "question": "Which command is used to install TypeScript globally?",
+          "options": [
+            "npm install typescript",
+            "npm install -g typescript",
+            "npm add typescript",
+            "npm install typescript --global"
+          ],
+          "answer": "npm install -g typescript"
         },
         {
           "id": 3,
-          "question": "How do you insert a comment in a CSS file?",
-          "options": [
-            "// this is a comment //",
-            "/* this is a comment */",
-            "-- this is a comment --",
-            "<!-- this is a comment -->"
-          ],
-          "answer": "/* this is a comment */"
+          "question": "What file extension is used for TypeScript files?",
+          "options": [".js", ".tsx", ".ts", ".jsx"],
+          "answer": ".ts"
         },
         {
           "id": 4,
-          "question": "Which property is used to change the background color of an element?",
-          "options": ["color", "bgcolor", "background-color", "background"],
-          "answer": "background-color"
+          "question": "Which keyword is used to define a variable with a specific type in TypeScript?",
+          "options": ["let", "var", "type", "const"],
+          "answer": "type"
         },
         {
           "id": 5,
-          "question": "How do you apply a style to all <p> elements?",
-          "options": ["p { }", ".p { }", "#p { }", "all.p { }"],
-          "answer": "p { }"
+          "question": "What is the purpose of the `interface` keyword in TypeScript?",
+          "options": [
+            "To define a class",
+            "To define a function",
+            "To define the shape of an object",
+            "To define a variable"
+          ],
+          "answer": "To define the shape of an object"
         },
         {
           "id": 6,
-          "question": "Which property is used to change the font of an element?",
-          "options": ["font-style", "text-style", "font-family", "typeface"],
-          "answer": "font-family"
+          "question": "Which of the following is a valid TypeScript type?",
+          "options": ["string", "number", "boolean", "All of the above"],
+          "answer": "All of the above"
         },
         {
           "id": 7,
-          "question": "How do you make each word in a text start with a capital letter?",
+          "question": "How do you compile a TypeScript file to JavaScript?",
           "options": [
-            "text-transform: capitalize",
-            "text-transform: uppercase",
-            "text-style: capital",
-            "font-transform: capitalize"
+            "tsc filename.ts",
+            "ts compile filename.ts",
+            "typescript filename.ts",
+            "compile filename.ts"
           ],
-          "answer": "text-transform: capitalize"
+          "answer": "tsc filename.ts"
         },
         {
           "id": 8,
-          "question": "How do you select an element with the class name 'header'?",
-          "options": [".header", "#header", "header", "*header"],
-          "answer": ".header"
+          "question": "What is the purpose of the `readonly` keyword in TypeScript?",
+          "options": [
+            "To make a variable immutable",
+            "To make a property immutable",
+            "To make a function immutable",
+            "To make a class immutable"
+          ],
+          "answer": "To make a property immutable"
         },
         {
           "id": 9,
-          "question": "What is the default value of the 'position' property?",
-          "options": ["relative", "fixed", "absolute", "static"],
-          "answer": "static"
+          "question": "Which of the following is true about TypeScript?",
+          "options": [
+            "It is a superset of JavaScript",
+            "It adds static typing to JavaScript",
+            "It compiles to plain JavaScript",
+            "All of the above"
+          ],
+          "answer": "All of the above"
         },
         {
           "id": 10,
-          "question": "What is the purpose of the z-index property in CSS?",
+          "question": "What is the purpose of the `any` type in TypeScript?",
           "options": [
-            "To count the number of elements",
-            "To set the magnification level of an element",
-            "To specify the stack order of an element",
-            "To create a zoom effect"
+            "To define a variable that can hold any type of value",
+            "To define a variable that can hold only numbers",
+            "To define a variable that can hold only strings",
+            "To define a variable that can hold only booleans"
           ],
-          "answer": "To specify the stack order of an element"
+          "answer": "To define a variable that can hold any type of value"
         }
       ]
     },
