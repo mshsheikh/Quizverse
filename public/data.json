@@ -1,7 +1,7 @@
 {
   "quizzes": [
     {
-      "title": "Node.js",
+      "title": "NodeJS",
       "icon": "./assets/images/nodejs.svg",
       "questions": [
         {
