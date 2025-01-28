@@ -1,93 +1,103 @@
 {
   "quizzes": [
     {
-      "title": "NodeJS",
+      "title": "Node.js",
       "icon": "./assets/images/nodejs.svg",
       "questions": [
         {
           "id": 1,
-          "question": "What does HTML stand for?",
+          "question": "What is Node.js primarily used for?",
           "options": [
-            "Hyper Trainer Marking Language",
-            "Hyper Text Marketing Language",
-            "Hyper Text Markup Language",
-            "Hyper Text Markup Leveler"
+            "Frontend development",
+            "Server-side development",
+            "Mobile app development",
+            "Database management"
           ],
-          "answer": "Hyper Text Markup Language"
+          "answer": "Server-side development"
         },
         {
           "id": 2,
-          "question": "Which of the following is the correct structure for an HTML document?",
-          "options": [
-            "<html><head></head><body></body></html>",
-            "<head><html></html><body></body></head>",
-            "<body><head></head><html></html></body>",
-            "<html><body></body><head></head></html>"
-          ],
-          "answer": "<html><head></head><body></body></html>"
+          "question": "Which of the following is NOT a core module in Node.js?",
+          "options": ["fs", "http", "path", "express"],
+          "answer": "express"
         },
         {
           "id": 3,
-          "question": "Which HTML element is used to define the title of a document?",
-          "options": ["<head>", "<title>", "<header>", "<top>"],
-          "answer": "<title>"
+          "question": "How do you import a core module in Node.js?",
+          "options": [
+            "import module from 'module'",
+            "const module = require('module');",
+            "include module;",
+            "using module;"
+          ],
+          "answer": "const module = require('module');"
         },
         {
           "id": 4,
-          "question": "What is the purpose of the <body> tag in HTML?",
+          "question": "Which method is used to start a Node.js server?",
           "options": [
-            "It defines the document's head section.",
-            "It contains all the content such as text, images, and links.",
-            "It is used to define the main content of an HTML document.",
-            "It specifies the body of the email content in HTML."
+            "server.start()",
+            "server.listen()",
+            "server.run()",
+            "server.create()"
           ],
-          "answer": "It contains all the content such as text, images, and links."
+          "answer": "server.listen()"
         },
         {
           "id": 5,
-          "question": "Which HTML tag is used to create a hyperlink?",
-          "options": ["<hyperlink>", "<link>", "<a>", "<href>"],
-          "answer": "<a>"
+          "question": "What does the `fs` module in Node.js stand for?",
+          "options": [
+            "File Stream",
+            "File System",
+            "File Service",
+            "File Storage"
+          ],
+          "answer": "File System"
         },
         {
           "id": 6,
-          "question": "Which tag is used to display images in HTML?",
-          "options": ["<img>", "<image>", "<src>", "<pic>"],
-          "answer": "<img>"
+          "question": "Which of the following is true about Node.js?",
+          "options": [
+            "It is single-threaded",
+            "It uses an event-driven architecture",
+            "It is non-blocking",
+            "All of the above"
+          ],
+          "answer": "All of the above"
         },
         {
           "id": 7,
-          "question": "What attribute is used to provide the path of an image in the <img> tag?",
-          "options": ["link", "src", "href", "url"],
-          "answer": "src"
+          "question": "What is the purpose of the `package.json` file in a Node.js project?",
+          "options": [
+            "To store application data",
+            "To define the project's dependencies and scripts",
+            "To configure the Node.js runtime",
+            "To store environment variables"
+          ],
+          "answer": "To define the project's dependencies and scripts"
         },
         {
           "id": 8,
-          "question": "Which HTML tag is used to create an unordered list?",
-          "options": ["<ul>", "<ol>", "<list>", "<li>"],
-          "answer": "<ul>"
+          "question": "Which command is used to install dependencies listed in `package.json`?",
+          "options": ["npm install", "npm add", "npm init", "npm start"],
+          "answer": "npm install"
         },
         {
           "id": 9,
-          "question": "What does the <br> tag do?",
-          "options": [
-            "It breaks the text into two sections.",
-            "It creates a bold text.",
-            "It inserts a line break.",
-            "It adds a new row in a table."
-          ],
-          "answer": "It inserts a line break."
+          "question": "What is the default entry point file for a Node.js application?",
+          "options": ["app.js", "main.js", "index.js", "server.js"],
+          "answer": "index.js"
         },
         {
           "id": 10,
-          "question": "In HTML, what does the `fieldset` tag do?",
+          "question": "Which of the following is used to handle asynchronous operations in Node.js?",
           "options": [
-            "It is used to group related data in a form.",
-            "It sets the field to a fixed size.",
-            "It automatically validates the fields within a form.",
-            "It hides the fields in a form."
+            "Promises",
+            "Callbacks",
+            "Async/Await",
+            "All of the above"
           ],
-          "answer": "It is used to group related data in a form."
+          "answer": "All of the above"
         }
       ]
     },
